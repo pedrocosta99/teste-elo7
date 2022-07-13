@@ -2,6 +2,7 @@
   import IMAGES from './lib/images'
   import Header from './lib/Header.svelte';
   import VideoCeo from './lib/VideoCeo.svelte';
+  import CompanyFeatures from './lib/CompanyFeatures.svelte';
 </script>
 
 <main>
@@ -30,33 +31,7 @@
     </div>
   </section>
 
-  <section class='elo-features'>
-    <div>
-      <img src={IMAGES.qualidade} alt="Emoji de rosto feliz">
-      <h4>QUALIDADE DE VIDA</h4>
-      <p>
-        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nam, explicabo!
-        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nesciunt, repudiandae.
-      </p>
-    </div>
-    <div>
-      <img src={IMAGES.descontracao} alt="Emoji de descontração - mão em gesto de Heavy Metal">
-      <h4>AMBIENTE DESCONTRAÍDO</h4>
-      <p>
-        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nam, explicabo!
-        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nesciunt, repudiandae.
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore, quas?
-      </p>
-    </div>
-    <div>
-      <img src={IMAGES.atividades} alt="Emoji de atividade artística">
-      <h4>ATIVIDADES EXTRAS</h4>
-      <p>
-        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nam, explicabo!
-        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nesciunt, repudiandae.
-      </p>
-    </div>
-  </section>
+  <CompanyFeatures/>
 
   <hr>
   <a href="https://www.elo7.com.br/sobre" class='btn'>
@@ -116,19 +91,6 @@
     margin: 2em 5px;
   }
 
-  .elo-features{
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-  }
-
-  .elo-features > div{
-    margin: 0 1em;
-  }
-
-  h4{
-    font-size: 1.3em;
-  }
 
 
 
