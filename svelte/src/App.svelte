@@ -1,6 +1,4 @@
 <script>
-  import IMAGES from './lib/images'
-
   import Header from './lib/Header.svelte';
   import VideoCeo from './lib/VideoCeo.svelte';
   import CompanyFeatures from './lib/CompanyFeatures.svelte';
@@ -17,16 +15,13 @@
   <button class='btn' on:click={() => scrollVagas()}>VAGAS EM ABERTO >></button>
 
   <VideoCeo/>
-
   <Team/>
-
   <CompanyFeatures/>
-
-  <h3 href="https://jobs.kenoby.com/elo7">VAGAS EM ABERTO</h3>
 
   <div id="vagas">
     <Vagas/>
   </div>
+
 </main>
 
 <style>
@@ -59,6 +54,5 @@
     margin: 2em 0;
     text-align: justify;
   }
-
 
 </style>

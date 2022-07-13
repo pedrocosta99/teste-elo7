@@ -12,6 +12,8 @@
 
 </script>
 
+<h3 href="https://jobs.kenoby.com/elo7">VAGAS EM ABERTO</h3>
+
 <div class="lista">
   <h4>Desenvolvimento</h4>
 
@@ -36,6 +38,11 @@
     display: flex;
     flex-direction: column;
     align-items: flex-start;
+  }
+
+  h3{
+    text-align: center;
+    color: #7D7873;
   }
 
   @media screen and (max-width: 992px) {
