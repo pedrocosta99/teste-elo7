@@ -3,6 +3,11 @@
 <header>
   <span class="header-txt">Trabalhe no Elo7</span>
 </header>
+<p>
+  Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sunt reprehenderit magnam quas ratione quisquam,
+  saepe ducimus velit, nihil vel, consequuntur temporibus consectetur laborum adipisci.
+</p>
+<hr>
 
 <style>
 
@@ -23,6 +28,20 @@
     color: #fff;
     text-shadow: 2px 2px rgb(32, 31, 31);
 
+  }
+
+  p{
+    max-width: 900px;
+    margin: 2em 0 1em 0;
+    line-height: 1.6em;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+  }
+
+  hr{
+    width: 300px;
+    color: rgba(14, 12, 12, 0.829);
+    border-width: 3.5px;
   }
 
 </style>

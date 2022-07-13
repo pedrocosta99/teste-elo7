@@ -1,49 +1,30 @@
 <script>
   import IMAGES from './lib/images'
+
   import Header from './lib/Header.svelte';
   import VideoCeo from './lib/VideoCeo.svelte';
   import CompanyFeatures from './lib/CompanyFeatures.svelte';
   import Vagas from './lib/Vagas.svelte';
+  import Team from './lib/Team.svelte'
+
+  let scrollVagas = () => {document.getElementById("vagas").scrollIntoView()}
+
 </script>
 
 <main>
   <Header/>
 
-  <section>
-    <p>
-      Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sunt reprehenderit magnam quas ratione quisquam,
-      saepe ducimus velit, nihil vel, consequuntur temporibus consectetur laborum adipisci.
-    </p>
-    <hr>
-    <a href="https://jobs.kenoby.com/elo7" class='btn'>
-      VAGAS EM ABERTO >>
-    </a>
-  </section>
+  <button class='btn' on:click={() => scrollVagas()}>VAGAS EM ABERTO >></button>
 
   <VideoCeo/>
 
-  <section class='team'>
-    <h3>CONHEÇA NOSSO TIME <br> FORA DE SÉRIE</h3>
-    <div>
-      <img src={IMAGES.camila} alt="Foto da Camila, equipe Elo7">
-      <img src={IMAGES.guto} alt="Foto do Guto, equipe Elo7">
-      <img src={IMAGES.david} alt="Foto do David, equipe Elo7">
-      <img src={IMAGES.beatriz} alt="Foto da Beatriz, equipe Elo7">
-    </div>
-  </section>
+  <Team/>
 
   <CompanyFeatures/>
 
-  <hr>
-  <a href="https://www.elo7.com.br/sobre" class='btn'>
-    SAIBA MAIS >>
-  </a>
+  <h3 href="https://jobs.kenoby.com/elo7">VAGAS EM ABERTO</h3>
 
-  <img src={IMAGES.fotoBottom} class="foto-bottom" alt="Foto de evento da Elo7">
-
-  <h3>VAGAS EM ABERTO</h3>
-
-  <div class="vagas">
+  <div id="vagas">
     <Vagas/>
   </div>
 </main>
@@ -56,32 +37,12 @@
 
   main {
     text-align: center;
-    max-width: 1000px;
+    max-width: 960px;
     margin: 0 auto;
     display: flex;
     flex-direction: column;
     align-items: center;
     background-color: white;
-  }
-
-  section{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-
-  p{
-    max-width: 900px;
-    margin: 2em 0 1em 0;
-    line-height: 1.6em;
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    text-align: center;
-  }
-
-  hr{
-    width: 300px;
-    color: rgba(14, 12, 12, 0.829);
-    border-width: 3.5px;
   }
 
   .btn{
@@ -93,26 +54,7 @@
     margin-bottom: 2em;
   }
 
-  h3, h4 {
-    color: #7D7873;
-  }
-
-  .team{
-    background-color: rgb(236, 234, 234);
-    width: 100%;
-    margin: 0 0;
-    padding: 2em 0;
-  }
-
-  img{
-    margin: 2em 5px;
-  }
-
-  .foto-bottom{
-    margin: 0 0 2em 0;
-  }
-
-  .vagas{
+  #vagas{
     width: 80%;
     margin: 2em 0;
     text-align: justify;
