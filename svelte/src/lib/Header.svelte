@@ -10,7 +10,7 @@
     background-color: linear-gradient(90deg, rgba(0,0,0,0.39957990031950286) 0%, rgba(237,228,228,0) 50%, rgba(0,0,0,0.4023810207676821) 100%) ;
     background: url("../assets/teste/foto-header.png") no-repeat center;
     width: 100%;
-    height: 500px;
+    height: 600px;
     display: flex;
     text-align: center;
     justify-content:center;
