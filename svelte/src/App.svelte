@@ -7,14 +7,13 @@
   <Header/>
   <p>
     Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sunt reprehenderit magnam quas ratione quisquam,
-    saepe ducimus velit, nihil vel, consequuntur temporibus consectetur laborum adipisci. Ipsam soluta blanditiis expedita eveniet veniam.
+    saepe ducimus velit, nihil vel, consequuntur temporibus consectetur laborum adipisci.
   </p>
 
   <hr>
   <a href="https://jobs.kenoby.com/elo7" class='btn'>
     VAGAS EM ABERTO >>
   </a>
-
 
 
   <hr>
@@ -32,7 +31,7 @@
 
   main {
     text-align: center;
-    max-width: 1200px;
+    max-width: 1000px;
     margin: 0 auto;
     display: flex;
     flex-direction: column;
@@ -41,7 +40,9 @@
 
   p{
     max-width: 900px;
-    
+    margin: 2em 0;
+    line-height: 1.6em;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   }
 
   hr{
