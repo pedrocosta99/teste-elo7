@@ -24,7 +24,7 @@
     flex-direction: row;
     padding: 3em;
     background-color: rgb(236, 234, 234);
-    margin: 3em 0;
+    margin:  0;
   }
 
   .video-info {

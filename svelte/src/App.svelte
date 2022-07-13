@@ -22,8 +22,8 @@
 
   <VideoCeo/>
 
-  <section>
-    <h3>CONHEÇA NOSSO TIME FORA DE SÉRIE</h3>
+  <section class='team'>
+    <h3>CONHEÇA NOSSO TIME <br> FORA DE SÉRIE</h3>
     <div>
       <img src={IMAGES.camila} alt="Foto da Camila, equipe Elo7">
       <img src={IMAGES.guto} alt="Foto do Guto, equipe Elo7">
@@ -39,7 +39,7 @@
     SAIBA MAIS >>
   </a>
 
-  <img src={IMAGES.fotoBottom} alt="Foto de evento da Elo7">
+  <img src={IMAGES.fotoBottom} class="foto-bottom" alt="Foto de evento da Elo7">
 
   <h3>VAGAS EM ABERTO</h3>
 
@@ -62,6 +62,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    background-color: white;
   }
 
   section{
@@ -75,7 +76,7 @@
     margin: 2em 0 1em 0;
     line-height: 1.6em;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    text-align: justify;
+    text-align: center;
   }
 
   hr{
@@ -90,14 +91,26 @@
     color: #359C9C;
     font-weight: 700;
     font-size: 1.3em;
+    margin-bottom: 2em;
   }
 
   h3, h4 {
     color: #7D7873;
   }
 
+  .team{
+    background-color: rgb(236, 234, 234);
+    width: 100%;
+    margin: 0 0;
+    padding: 2em 0;
+  }
+
   img{
     margin: 2em 5px;
+  }
+
+  .foto-bottom{
+    margin: 0 0 2em 0;
   }
 
   .vagas{

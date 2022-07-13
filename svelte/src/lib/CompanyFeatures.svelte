@@ -56,5 +56,7 @@
     line-height: 1.6em;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     text-align: justify;
+    color: #969290;
   }
+  
 </style>
