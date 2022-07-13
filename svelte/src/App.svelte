@@ -3,6 +3,7 @@
   import Header from './lib/Header.svelte';
   import VideoCeo from './lib/VideoCeo.svelte';
   import CompanyFeatures from './lib/CompanyFeatures.svelte';
+  import Vagas from './lib/Vagas.svelte';
 </script>
 
 <main>
@@ -38,6 +39,16 @@
     SAIBA MAIS >>
   </a>
 
+  <img src={IMAGES.fotoBottom} alt="Foto de evento da Elo7">
+
+  <h3>VAGAS EM ABERTO</h3>
+
+  <div class="vagas">
+    <h4>Desenvolvimento</h4>
+    <ul>
+      <Vagas/>
+    </ul>
+  </div>
 </main>
 
 <style>
@@ -91,7 +102,9 @@
     margin: 2em 5px;
   }
 
-
+  .vagas{
+    margin: 3em 0;
+  }
 
 
 </style>
