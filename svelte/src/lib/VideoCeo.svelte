@@ -27,6 +27,21 @@
     margin:  0;
   }
 
+  @media screen and (max-width: 992px) {
+    .ceo-banner{
+      flex-direction: column;
+    }
+
+    img{
+      display: flex;
+      align-self: center;
+    }
+
+    .video-info{
+      margin: 2em 3em 0 3em;
+    }
+  }
+
   .video-info {
     display: flex;
     flex-direction: column;

@@ -44,7 +44,6 @@
   <h3>VAGAS EM ABERTO</h3>
 
   <div class="vagas">
-    <h4>Desenvolvimento</h4>
     <Vagas/>
   </div>
 </main>

@@ -13,8 +13,10 @@
 </script>
 
 <div class="lista">
+  <h4>Desenvolvimento</h4>
+
   {#each vagas as vaga}
-  <div>
+  <div class='item'>
     <a href={vaga.link} >{vaga.cargo}</a>
 
     {#if vaga.localizacao}
@@ -35,6 +37,20 @@
     flex-direction: column;
     align-items: flex-start;
   }
+
+  @media screen and (max-width: 992px) {
+  .item {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: 1em 0;
+  }
+
+  h4{
+    display: flex;
+    align-self: center;
+  }
+}
 
   div{
     width: 100%;
