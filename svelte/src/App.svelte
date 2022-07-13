@@ -45,9 +45,7 @@
 
   <div class="vagas">
     <h4>Desenvolvimento</h4>
-    <ul>
-      <Vagas/>
-    </ul>
+    <Vagas/>
   </div>
 </main>
 
@@ -103,7 +101,9 @@
   }
 
   .vagas{
-    margin: 3em 0;
+    width: 80%;
+    margin: 2em 0;
+    text-align: justify;
   }
 
 
