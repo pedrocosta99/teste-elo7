@@ -2,7 +2,7 @@
   import Header from "./lib/components/Header.svelte";
   import Vagas from "./lib/components/Vagas.svelte";
   import VideoCeo from "./lib/components/VideoCeo.svelte";
-
+  import Team from "./lib/components/Team.svelte";
 </script>
 
 <body>
@@ -11,6 +11,7 @@
     <Header/>
     <Vagas/>
     <VideoCeo/>
+    <Team/>
 
     <span>Time</span>
     <span>Company Features</span>

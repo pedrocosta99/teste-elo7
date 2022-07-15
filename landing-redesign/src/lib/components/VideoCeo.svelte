@@ -6,7 +6,7 @@
   <img src={IMAGES.placeholderVideo} alt="Entrevista com o CEO da Elo7">
 
   <div class="video-info">
-    <h4 class='video-title'>PALAVRA DO CEO</h4>
+    <h4 class='video-title title-color'>PALAVRA DO CEO</h4>
     <h4 class='ceo-name'>Carlos Curioni</h4>
     <p>
       Lorem, ipsum dolor sit amet consectetur adipisicing elit.
@@ -45,10 +45,6 @@
     flex-direction: column;
     text-align: justify;
     padding: 0 1em 0 3em;
-  }
-
-  .video-title{
-    color: #7D7873
   }
 
   .ceo-name{
