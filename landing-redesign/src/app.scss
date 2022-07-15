@@ -1,2 +1,10 @@
 /* Write your global styles here, in SCSS syntax. Variables and mixins from the src/variables.scss file are available here without importing */
-@import url("./variables.scss");
+
+// Header
+
+.line-break{
+  width: 300px;
+  color: rgba(14, 12, 12, 0.829);
+  border-width: 3.5px;
+}
+

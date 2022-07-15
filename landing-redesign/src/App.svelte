@@ -1,31 +1,23 @@
-<script></script>
+<script>
+import Header from "./lib/components/Header.svelte";
+</script>
 
-<main>
+<body>
+  <main>
 
-  <p>Outer test</p>
-  <div>
-    Teste
-    <p>Inner Test</p>
-  </div>
-</main>
+    <Header/>
 
+  </main>
+</body>
 
 
-<style src="./app.scss" lang="scss">
+<style lang="scss">
 
-  p{
-    color: white;
+  body, main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   }
-
-  div{
-    height: 200px;
-    background-color: white;
-    color: $yellow;
-
-    > p{
-      color: black;
-    }
-  }
-
 
 </style>
