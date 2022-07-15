@@ -1,12 +1,8 @@
-import {onMount} from 'svelte'
+const fetch = (...args) => import('node-fetch').then(({default: fetch}) => fetch(...args));
 
-let vagas = []
-
-onMount( async () => {
-  const response = await fetch('http://www.mocky.io/v2/5d6fb6b1310000f89166087b')
-  const vagasJSON = await response.json()
-  vagas = vagasJSON['vagas']
-  vagas = vagas.filter(vaga => vaga.ativa)
-})
-
-export default vagas;
+export const vagas = async () => {
+  return await fetch('http://www.mocky.io/v2/5d6fb6b1310000f89166087b')
+    .then(response => response.json())
+    .then(data => data['vagas'] )
+    .then(vagas => vagas.filter(vaga => vaga.ativa))
+}
