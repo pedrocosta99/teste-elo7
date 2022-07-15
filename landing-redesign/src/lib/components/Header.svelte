@@ -1,5 +1,5 @@
 <script>
-import IMAGES from "../images";
+import IMAGES from "../scripts/images";
 </script>
 
 
