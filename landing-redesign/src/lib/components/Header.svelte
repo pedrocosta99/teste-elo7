@@ -36,9 +36,6 @@ import IMAGES from "../scripts/images";
   }
 
   p{
-    max-width: 900px;
-    margin: 2em 0 1em 0;
-    line-height: 1.6em;
     text-align: center;
   }
 

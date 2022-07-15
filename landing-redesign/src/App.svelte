@@ -1,16 +1,17 @@
 <script>
   import Header from "./lib/components/Header.svelte";
   import Vagas from "./lib/components/Vagas.svelte";
+  import VideoCeo from "./lib/components/VideoCeo.svelte";
+
 </script>
 
 <body>
   <main>
 
     <Header/>
-
     <Vagas/>
+    <VideoCeo/>
 
-    <span>CEO</span>
     <span>Time</span>
     <span>Company Features</span>
     <span>Foto Bottom</span>
