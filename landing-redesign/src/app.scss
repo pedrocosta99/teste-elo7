@@ -12,8 +12,23 @@ p{
   max-width: 900px;
   margin: 2em 0 1em 0;
   line-height: 1.6em;
+
 }
 
 .title-color{
   color: #7D7873
+}
+
+.btn{
+  background-color: $green;
+  margin: 2em 0;
+  color: #fff;
+  width: fit-content;
+  padding: 15px 10px;
+  font-weight: 700;
+  font-size: 1.3em;
+
+  &:hover{
+    color: $green
+  }
 }

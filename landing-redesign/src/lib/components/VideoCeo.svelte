@@ -21,7 +21,7 @@
     display: flex;
     flex-direction: row;
     padding: 3em;
-    background-color: rgb(236, 234, 234);
+    background-color: $gray-bg;
     margin:  0;
   }
 
@@ -48,8 +48,9 @@
   }
 
   .ceo-name{
-    color: $yellow;
+    color: $orange;
     font-style: italic;
+    font-weight: bold;
   }
 
 

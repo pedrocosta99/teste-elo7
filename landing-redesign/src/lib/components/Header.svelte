@@ -27,6 +27,10 @@ import IMAGES from "../scripts/images";
     align-items:center;
   }
 
+  img{
+    max-width: 1000px;
+  }
+
   .header-txt{
     font-size: 5em;
     padding: 0 0.3em;
