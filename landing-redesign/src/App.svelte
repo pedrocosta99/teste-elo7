@@ -12,8 +12,6 @@
     <Vagas/>
     <VideoCeo/>
     <Team/>
-
-    <span>Time</span>
     <span>Company Features</span>
     <span>Foto Bottom</span>
     <span>Footer</span>
@@ -29,7 +27,9 @@
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    max-width: 960px;
+    margin: 0 auto;
   }
 
 </style>
