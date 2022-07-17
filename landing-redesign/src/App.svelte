@@ -3,6 +3,7 @@
   import Vagas from "./lib/components/Vagas.svelte";
   import VideoCeo from "./lib/components/VideoCeo.svelte";
   import Team from "./lib/components/Team.svelte";
+  import CompanyFeatures from "./lib/components/CompanyFeatures.svelte";
 </script>
 
 <body>
@@ -12,8 +13,8 @@
     <Vagas/>
     <VideoCeo/>
     <Team/>
+    <CompanyFeatures/>
     <span>Company Features</span>
-    <span>Foto Bottom</span>
     <span>Footer</span>
 
   </main>
@@ -22,7 +23,9 @@
 
 <style lang="scss">
 
-  body, main{
+
+
+  main{
     display: flex;
     align-items: center;
     justify-content: center;
@@ -30,6 +33,7 @@
     font-family: 'Montserrat', sans-serif;
     max-width: 960px;
     margin: 0 auto;
+
   }
 
 </style>
