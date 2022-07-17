@@ -7,14 +7,13 @@
   <br>
   <h3 class="slogan">#FORA DE SÉRIE</h3>
 
-  <div class="images images-1">
+  <div class="container">
     <img src={IMAGES.camila} alt="Foto da Camila, equipe Elo7">
     <img src={IMAGES.guto} alt="Foto do Guto, equipe Elo7">
-  </div>
-  <div class="images images-2">
     <img src={IMAGES.david} alt="Foto do David, equipe Elo7">
     <img src={IMAGES.beatriz} alt="Foto da Beatriz, equipe Elo7">
   </div>
+
 
 </section>
 
@@ -33,26 +32,26 @@
     width: 100%;
   }
 
-  .images{
-    padding: 0 2em;
-    width: 100%;
+  .container{
     display: flex;
-    justify-content: space-around;
     flex-wrap: wrap;
-
-    &.images-1{
-      padding: 0 150px 0 0;
-    }
-    &.images-2{
-      padding: 0 0 0 150px;
-    }
+    justify-content: space-evenly;
   }
 
   img{
+    max-width: 200px;
     margin: 2em 5px;
-    box-shadow: 12px 15px $yellow;
+    box-shadow: 8px 10px $yellow;
+    flex-grow: 0;
+    flex-shrink: 0;
+    flex-basis: 25%;
   }
 
+  @media only screen and (max-width: 1000px) {
+    img{
+      flex-basis: 50%;
+    }
+  }
 
   .slogan{
     font-size: 2em;

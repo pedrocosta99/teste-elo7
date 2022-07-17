@@ -47,6 +47,10 @@
     padding: 0 1em 0 3em;
   }
 
+  .video-title{
+    font-size: 1.5em;
+  }
+
   .ceo-name{
     color: $orange;
     font-style: italic;

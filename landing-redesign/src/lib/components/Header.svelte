@@ -7,7 +7,9 @@ import IMAGES from "../scripts/images";
 
   <img src={IMAGES.fotoHeader} alt="Foto equipe Elo7">
 
-  <span class="header-txt">Trabalhe no Elo7</span>
+  <div class="header-title-bg">
+    <span class="header-title">Trabalhe no Elo7</span>
+  </div>
 
   <p>
     Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sunt reprehenderit magnam quas ratione quisquam,
@@ -31,12 +33,20 @@ import IMAGES from "../scripts/images";
     max-width: 1000px;
   }
 
-  .header-txt{
+  .header-title{
+    position: relative;
+    bottom: 60px;
     font-size: 5em;
     padding: 0 0.3em;
-    background-color: $green;
-    color: $yellow;
-    text-shadow: 4px 3px rgb(32, 31, 31);
+  }
+
+  .header-title-bg{
+    margin-top: 4em;
+    height: 3em;
+    background-color: $yellow;
+    color: $green;
+    text-shadow: 4px 3px $beige-bg;
+
   }
 
   p{
