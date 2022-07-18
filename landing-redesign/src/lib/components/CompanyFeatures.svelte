@@ -30,7 +30,7 @@
   </section>
 
   <a href="https://www.elo7.com.br/sobre" class='btn'>
-    SAIBA MAIS >>
+    SAIBA MAIS
   </a>
 
   <img src={IMAGES.fotoBottom} class="foto-bottom" alt="Foto de evento da Elo7">
@@ -42,6 +42,10 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+  }
+
+  a{
+    width: 300px;
   }
 
   .elo-features{

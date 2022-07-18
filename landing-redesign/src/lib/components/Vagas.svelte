@@ -50,12 +50,13 @@
     display: flex;
     justify-content: space-between;
 
-    &:nth-child(even) {
+    &:nth-child(odd) {
         background-color: #e9e9e9;
     }
   }
 
   h3{
+    margin: 0;
     text-align: center;
     color: #7D7873;
   }
@@ -69,7 +70,7 @@
     justify-content: center;
     height: 150px;
   }
-  
+
   span{
     margin-bottom: 1em;
   }

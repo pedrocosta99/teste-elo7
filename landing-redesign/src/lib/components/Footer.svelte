@@ -34,7 +34,7 @@
 
   footer{
     background-color: $yellow;
-    height: 150px;
+    height: 120px;
     width: 100%;
     display: flex;
     justify-content:space-around;
@@ -49,7 +49,7 @@
 
   img{
     justify-self: left;
-    height: 150px
+    height: 100%;
   }
 
   a{

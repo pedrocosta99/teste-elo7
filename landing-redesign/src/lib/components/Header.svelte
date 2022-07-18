@@ -17,8 +17,10 @@ import IMAGES from "../scripts/images";
     saepe ducimus velit, nihil vel, consequuntur temporibus consectetur laborum adipisci.
   </p>
 
-
   <hr class="line-break">
+
+  <a href="https://elo7.gupy.io/" class="btn">Carreiras Elo7</a>
+
 
 </section>
 
@@ -65,6 +67,7 @@ import IMAGES from "../scripts/images";
   }
 
   p{
+    margin: 1em 0;
     text-align: center;
     max-width: 80vw;
   }
@@ -93,6 +96,12 @@ import IMAGES from "../scripts/images";
     .header-title{
       scale: 0.85;
     }
+  }
+
+  a{
+    margin: 1em 0 2em 0;
+    width: 300px;
+
   }
 
 
