@@ -6,14 +6,22 @@
 
   <section class='elo-features'>
     <div class="feature">
-      <h4>QUALIDADE DE VIDA</h4>
+      <h4 class="feature-title">
+        <h5>Qualidade</h5>
+        <h5>de vida</h5>
+      </h4>
       <p>
         Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nam, explicabo!
         Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nesciunt, repudiandae.
       </p>
+
+      <a href="https://www.elo7.com.br/sobre" class="btn-sobre">SAIBA MAIS >>></a>
     </div>
     <div class="feature">
-      <h4>AMBIENTE DESCONTRAÍDO</h4>
+      <h4 class="feature-title">
+        <h5>Ambiente</h5>
+        <h5>Descontraído</h5>
+      </h4>
       <p>
         Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nam, explicabo!
         Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nesciunt, repudiandae.
@@ -21,7 +29,10 @@
       </p>
     </div>
     <div class="feature">
-      <h4>ATIVIDADES EXTRAS</h4>
+      <h4 class="feature-title">
+        <h5>Atividades</h5>
+        <h5>Extras</h5>
+      </h4>
       <p>
         Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nam, explicabo!
         Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nesciunt, repudiandae.
@@ -33,8 +44,6 @@
     SAIBA MAIS
   </a>
 
-  <img src={IMAGES.fotoBottom} class="foto-bottom" alt="Foto de evento da Elo7">
-
 </div>
 
 <style src="../app.scss" lang="scss">
@@ -42,6 +51,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-bottom: 2em;
   }
 
   a{
@@ -52,9 +62,7 @@
     display: flex;
     flex-direction: row;
     justify-content: center;
-    background-color: $beige-bg;
-    // border-top: 5px $green solid;
-    // border-bottom: 5px $green solid;
+    background-color: $yellow;
   }
 
   .feature{
@@ -63,7 +71,6 @@
     padding: 0 1em;
     display: flex;
     flex-direction: column;
-    align-items: center;
 
     &:hover{
       background-color: $yellow;
@@ -88,17 +95,41 @@
       height: fit-content;
       padding-bottom: 50px;
     }
+
+    .feature-title{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .btn-sobre{
+      display: none;
+    }
+
+    .btn{
+      display: flex;
+    }
   }
 
-  h4{
-    font-size: 2em;
-    color: $green;
-    text-align: center;
-    margin: 1em 0.5em;
+  .feature-title{
+    padding: 1em 0;
+  }
+
+  h5{
+    width: fit-content;
+    font-size: 1.2em;
+    color: white;
+    margin: 0.1em 0.5em;
+    padding: 2px 15px 2px 2px;
+    background-color: $green;
+    font-weight: bolder;
   }
 
   p{
-    color: $green;
+    color: black;
+    font-size: 1em;
+    line-height: normal;
+    font-weight: bold;
     padding: 0 1em;
     margin: 0;
     text-align: justify;
@@ -109,11 +140,23 @@
     margin: 0 0 2em 0;
   }
 
-  .bandeirinhas{
-    position: absolute;
-    bottom: 0;
-    margin: 0 0;
-    justify-self: end;
+  .btn-sobre{
+    color: $green;
+    text-decoration: none;
+    font-weight: bolder;
+    font-size: 1.5em;
+    margin-top: 3em;
+    padding: 0 1em;
   }
 
+  .btn{
+    display: flex;
+    justify-content: center;
+  }
+
+  @media screen and (min-width: 800px) {
+    .btn{
+      display:none;
+    }
+  }
 </style>
