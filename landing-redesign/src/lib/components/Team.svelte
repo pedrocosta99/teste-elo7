@@ -5,7 +5,7 @@
 <section class='team'>
   <h3 class="title-color">CONHEÇA NOSSO TIME</h3>
   <br>
-  <h3 class="slogan">#FORA DE SÉRIE</h3>
+  <h3 class="slogan">#FORADESÉRIE</h3>
 
   <div class="container">
     <img src={IMAGES.camila} alt="Foto da Camila, equipe Elo7">
@@ -55,7 +55,8 @@
 
   .slogan{
     font-size: 2em;
-    color: $yellow;
+    background-color: $yellow;
+    color: white;
     font-weight: 800;
   }
 
