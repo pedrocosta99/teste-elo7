@@ -5,6 +5,8 @@
 
 </script>
 
+<img src={IMAGES.fotoBottom} alt="Evento da Elo7" class="img-bottom">
+
 <footer>
 
   <img src={IMAGES.logoYellow} alt="Logo Elo7">
@@ -29,6 +31,10 @@
 
 
 <style src="../app.scss" lang="scss">
+
+  .img-bottom{
+    margin-bottom: 1em;
+  }
 
   footer{
     background-color: $yellow;
