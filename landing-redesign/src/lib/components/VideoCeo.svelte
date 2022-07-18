@@ -21,7 +21,7 @@
     display: flex;
     flex-direction: row;
     padding: 3em;
-    background-color: $gray-bg;
+    background-color: $yellow;
     margin:  0;
   }
 
@@ -49,13 +49,20 @@
 
   .video-title{
     font-size: 1.5em;
-  }
-
-  .ceo-name{
-    color: $orange;
-    font-style: italic;
+    color: black;
     font-weight: bold;
   }
 
+  .ceo-name{
+    width: fit-content;
+    background-color: $green;
+    color: white;
+    font-weight: bolder;
+    padding: 2px 12px 2px 2px;
+  }
+
+  p{
+    color: black;
+  }
 
 </style>
