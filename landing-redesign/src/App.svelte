@@ -12,10 +12,10 @@
   <main>
 
     <Header/>
-    <Vagas/>
     <VideoCeo/>
     <Team/>
     <CompanyFeatures/>
+    <Vagas/>
     <Footer/>
 
   </main>
