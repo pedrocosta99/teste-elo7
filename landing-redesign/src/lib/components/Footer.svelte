@@ -25,8 +25,6 @@
 
   </div>
 
-  <span class="voltar-topo">Voltar ao topo </span>
-
 </footer>
 
 
@@ -45,6 +43,7 @@
     flex-basis: 30%;
     display: flex;
     justify-content: space-between;
+    min-width: 250px;
   }
 
   img{
