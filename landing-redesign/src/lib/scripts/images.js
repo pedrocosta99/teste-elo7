@@ -9,6 +9,7 @@ import guto from '../../assets/teste/guto.png'
 import qualidade from '../../assets/teste/qualidade.png'
 import vagas from '../../assets/teste/vagas.png'
 import placeholderVideo from '../../assets/teste/placeholder-video.png'
+import logoYellow from "../../assets/logo-yellow.png"
 
 
 const IMAGES = {
@@ -22,7 +23,8 @@ const IMAGES = {
   guto: guto,
   qualidade: qualidade,
   vagas: vagas,
-  placeholderVideo: placeholderVideo
+  placeholderVideo: placeholderVideo,
+  logoYellow: logoYellow
 }
 
 export default IMAGES;

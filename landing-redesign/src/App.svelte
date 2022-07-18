@@ -4,6 +4,8 @@
   import VideoCeo from "./lib/components/VideoCeo.svelte";
   import Team from "./lib/components/Team.svelte";
   import CompanyFeatures from "./lib/components/CompanyFeatures.svelte";
+  import Footer from "./lib/components/Footer.svelte";
+
 </script>
 
 <body>
@@ -14,16 +16,13 @@
     <VideoCeo/>
     <Team/>
     <CompanyFeatures/>
-    <span>Company Features</span>
-    <span>Footer</span>
+    <Footer/>
 
   </main>
 </body>
 
 
 <style lang="scss">
-
-
 
   main{
     display: flex;

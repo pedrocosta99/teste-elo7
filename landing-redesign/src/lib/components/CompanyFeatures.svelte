@@ -63,6 +63,10 @@
 
     &:hover{
       background-color: $yellow;
+
+      > p{
+        color: black;
+      }
     }
   }
 
