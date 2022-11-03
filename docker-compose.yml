@@ -2,21 +2,17 @@ version: '3.9'
 
 services:
   teste-copia:
+    build: ./landing-copycat
     image: landing-copycat
     container_name: teste-copia
-    ports:
-      - "5001:5001"
-    networks:
-      - compose-bridge
+    network_mode: "host"
+    # ports:
+      # - "5001:5001"
 
   teste-redesign:
-    image: landing-copycat
+    build: ./landing-redesign
+    image: landing-redesign
     container_name: teste-redesign
-    ports:
-      - "5002:5002"
-    networks:
-      - compose-bridge
-
-networks:
-  compose-bridge:
-    driver: bridge
+    network_mode: "host"
+    # ports:
+    #   - "5002:5002"

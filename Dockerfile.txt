@@ -1,0 +1,4 @@
+FROM 'base image'
+WORKDIR 'directory where other commands take place'
+COPY 'file or folder from source that will be sent to specific path on container'
+COPY 'lets send another file to another place like: myFolder/myFile /containerDirectory'

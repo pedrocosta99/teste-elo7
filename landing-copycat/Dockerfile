@@ -1,6 +1,6 @@
-FROM node:14
-WORKDIR /teste-front-elo7
-COPY . /teste-front-elo7
+FROM node:16
+WORKDIR /teste-copia
+COPY . /teste-copia
 RUN npm install
 ENTRYPOINT npm run dev
 EXPOSE 5001
